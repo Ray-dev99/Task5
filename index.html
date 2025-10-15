@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css"> <!--referred to an external style sheet-->
+  <title>Weather App</title>
+
+</head>
+<body>
+  <div class="header">
+    <img src="./assets/images/logo.svg" alt="web logo" width="100">
+    <button class="dropbtn"><img src=".\assets\images\icon-units.svg" alt="units icon" width="7">Units<img src=".\assets\images\icon-dropdown.svg" alt="dropdown icon" width="7"></button>
+  </div>
+  <h1>How's the sky looking today?</h1>
+  
+  <div class="buttons">
+    <button class="s-dropbtn"><img src=".\assets\images\icon-search.svg" alt="search icon" width="10">search for a place...</button>
+    <button class="s-button">Search</button>
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <div class="weather-card">
+        <diV class="inputed-text">
+          <div class="left-side">
+            <h2>Berlin, Germany</h2>
+            <p class="date">Tuesday, Aug 5, 2025</p>
+          </div>
+          <div class="right-side">
+            <img src=".\assets\images\icon-sunny.webp" alt="sunny icon" width="60">
+            <h1 class="degree">68&deg</h1>
+          </div>  
+        </div>
+      </div>
+      
+      
+      <section class="weather-conditions"><!--different weather conditions-->
+        <div class="weather">
+          <p>Feels like</p>
+          <p class="extent">64&deg</p>
+        </div>
+        <div class="weather">
+          <p>Humidity</p>
+          <p class="extent">46%</p>
+        </div>  
+        <div class="weather">
+          <p>Wind</p>
+          <p class="extent">9 mph</p>
+        </div>  
+        <div class="weather">
+          <p>Precipitation</p>
+          <p class="extent">0 in</p>
+        </div>
+      </section>
+      
+      <section class="daily-forecast">
+        <h3>Daily Forecast</h3>
+        <div class="days">
+          <div class="day">
+            <p class="daily">Tue</p>
+            <img src=".\assets\images\icon-rain.webp" alt="rain icon" width="30">
+            <p class="range">68&deg 57&deg</p>
+          </div>
+          <div class="day">
+            <p class="daily">Wed</p>
+            <img src=".\assets\images\icon-drizzle.webp" alt="drizzle icon" width="30">
+            <p class="range">70&deg 59&deg</p>
+          </div>
+          <div class="day">
+            <p class="daily">Thur</p>
+            <img src=".\assets\images\icon-sunny.webp" alt="sun icon" width="30">
+            <p class="range">75&deg 57&deg</p>
+          </div>
+          <div class="day">
+            <p class="daily">Fri</p>
+            <img src=".\assets\images\icon-partly-cloudy.webp" alt="partly-cloudy icon" width="30">
+            <p class="range">77&deg 55&deg</p>
+          </div>
+          <div class="day">
+            <p class="daily">Sat</p>
+            <img src=".\assets\images\icon-storm.webp" alt="storm icon" width="30">
+            <p class="range">70&deg 59&deg</p>
+          </div>
+          <div class="day">
+            <p class="daily">Sun</p>
+            <img src=".\assets\images\icon-snow.webp" alt="snow icon" width="30">
+            <p class="range">77&deg 61&deg</p>
+          </div>
+          <div class="day">
+            <p class="daily">Mon</p>
+            <img src=".\assets\images\icon-fog.webp" alt="fog icon" width="30">
+            <p class="range">75&deg 59&deg</p>
+          </div>  
+        </div>
+      </section> 
+    </div>
+    <aside>
+      <div class="heading">
+        <h3>Hourly Forecast</h3>
+        <div><buttton class="d-dropbtn">Tuesday<img src="./assets/images/icon-dropdown.svg" alt="dropdown icon" width="7"></buttton></div>
+      </div>
+      
+      <div class="hours">
+        <div class="hour">
+          <img src=".\assets\images\icon-overcast.webp" alt="overcast icon" width="15">
+          <p class="time">3PM</p>
+          <p>68&deg</p>
+        </div>
+        <div class="hour">
+          <img src=".\assets\images\icon-partly-cloudy.webp" alt="partly-cloudy icon" width="15">
+          <p class="time">4PM</p>
+          <p>68&deg</p>
+        </div>
+        <div class="hour">
+          <img src=".\assets\images\icon-sunny.webp" alt="sunny icon" width="15">
+          <p class="time">5PM</p>
+          <p>68&deg</p>
+        </div>
+        <div class="hour">
+          <img src=".\assets\images\icon-overcast.webp" alt="overcast icon" width="15">
+          <p class="time">6PM</p>
+          <p>66&deg</p>
+        </div>
+        <div class="hour">
+          <img src=".\assets\images\icon-snow.webp" alt="snow icon" width="15">
+          <p class="time">7PM</p>
+          <p>66&deg</p>
+        </div>
+        <div class="hour">
+          <img src=".\assets\images\icon-fog.webp" alt="fog icon" width="15">
+          <p class="time">8PM</p>
+          <p>64&deg</p>
+        </div>
+        <div class="hour">
+          <img src=".\assets\images\icon-snow.webp" alt="snow icon" width="15">
+          <p class="time">9PM</p>
+          <p>63&deg</p>
+        </div>
+        <div class="hour">
+          <img src=".\assets\images\icon-overcast.webp" alt="overcast icon" width="15">
+          <p class="time">10PM</p>
+          <p>63&deg</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

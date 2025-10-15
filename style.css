@@ -1,0 +1,240 @@
+/*entire body background*/
+body {
+    background-color: hsl(243, 96%, 9%);
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*header displays logo and the "units" button to float right*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*units dropdown button*/
+.dropbtn {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: hsl(250, 6%, 84%);
+    font-size: xx-small;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 3px;
+}
+
+/*drop button to display purple color when moused over*/
+.dropbtn:hover {
+    background-color: rgb(96, 98, 177);
+}
+
+/*the main content heading*/
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: x-large;
+}
+
+/*input form for search*/
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+/*this displays for the search input*/
+.s-dropbtn {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: hsl(250, 6%, 84%);
+    font-size: x-small;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 5px 100px 5px 5px;
+}
+
+/*the search button*/
+.s-button {
+    background-color: hsl(233, 67%, 56%);
+    color: hsl(250, 6%, 84%);
+    font-size: x-small;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+/*search button changes to purple when hovered over*/
+.s-button:hover {
+    background-color: rgb(48, 26, 110);
+}
+
+/*styling overall container*/
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*styling the weather card*/
+.weather-card {
+    background-image: url('./assets/images/bg-today-large.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    width: 400px;
+    margin-top: 30px
+}
+
+/*text on an inserted background*/
+.inputed-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*right side text on inserted background*/
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/*left side text on inserted backgroung*/
+.left-side {
+    line-height: 0.2;
+    font-size: x-small;
+}
+
+.degree {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+/*styling weather conditions*/
+.weather-conditions {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(250, 6%, 84%);
+    margin: 20px 0px 20px -5px;
+}
+
+/*styling each weather condtions*/
+.weather {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 50px 0 10px;
+    margin: 5px;
+}  
+
+p {
+    font-size: xx-small;
+     color: hsl(250, 6%, 84%);
+}
+
+.extent {
+    font-size: medium;
+}
+
+h3 {
+    color: hsl(250, 6%, 84%);
+    font-size: x-small;
+}
+
+/*to style the days section*/
+.days {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(250, 6%, 84%);
+    margin: 10px 0 0 0;
+}
+
+/* to style each day*/
+.day {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/*daily forecast style*/
+.daily {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*to space degree ranges*/
+.range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5px;
+}
+
+/*aside heading style*/
+.heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+/*aside style*/
+aside {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+/*dropdown button hourly forecast*/
+.d-dropbtn {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: hsl(250, 6%, 84%);
+    font-size: xx-small;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 7px;
+    gap: 3px;
+}
+
+.d-dropbtn:hover {
+    background-color: rgb(48, 26, 110);
+}
+
+/*each hourly forecast style*/
+.hour {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: none;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 10px 0 15px 0;
+    padding: 0 10px 0 10px;
+}
+
+/*to reduce time left margin and increase font weight*/
+.time {
+    margin-left: -150px;
+    font-weight: bold;
+}
+
